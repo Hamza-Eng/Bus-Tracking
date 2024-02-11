@@ -1,9 +1,10 @@
 HELP.md
-target/
+
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-!/target/app.jar
+!*.jar
+
 
 ### STS ###
 .apt_generated
@@ -32,3 +33,9 @@ build/
 
 ### VS Code ###
 .vscode/
+target/test-classes
+target/surefire-reports
+target/maven-status
+target/maven-archiver
+target/classes
+*.original
